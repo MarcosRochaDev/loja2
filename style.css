@@ -6,6 +6,15 @@
     margin: auto;
 
 }
+body{
+    width: 320px;
+    margin: auto;
+    background-color: rgba(137, 43, 226, 0.178);
+    background-image:url(/img/body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 p{
     text-align: center;
     font-size: 20px;
@@ -21,6 +30,7 @@ header{
     align-items: center;
     padding: 0 10px;
     box-shadow: 0px 6px 15px rgba(255, 0, 0, 0.578);
+    border-radius: 5px;
     
     
 }
@@ -42,13 +52,17 @@ input{
     display: block;
     width: 400px;
     height: 60px;
-    padding: 3px;
+    text-align: center;
     margin-top: 20px;
     border-radius: 5px;
     font-size: 25px;
-    background-color: rgba(243, 241, 206, 0.795);
+    background-color: rgba(245, 244, 233, 0.795);
     border: .2px rgba(0, 0, 0, 0.664) solid;
 }
 input:hover{
-    background-color: rgba(243, 241, 206, 0.288);
+    background-color: rgb(238, 234, 160);
     }
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+     }
