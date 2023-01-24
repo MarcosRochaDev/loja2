@@ -8,7 +8,7 @@
 }
 p{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     width: 350px;
 }
 
@@ -35,7 +35,7 @@ header h1{
     width: 300px;
     margin-top: 5px;
     display: flex;
-    justify-content: center;
+    
 }
 
 input{
@@ -43,6 +43,12 @@ input{
     width: 400px;
     height: 60px;
     padding: 3px;
-    margin-top: 3px;
+    margin-top: 20px;
     border-radius: 5px;
+    font-size: 25px;
+    background-color: rgba(243, 241, 206, 0.795);
+    border: .2px rgba(0, 0, 0, 0.664) solid;
 }
+input:hover{
+    background-color: rgba(243, 241, 206, 0.288);
+    }
